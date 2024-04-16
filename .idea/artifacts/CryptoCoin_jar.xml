@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CryptoCoin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CryptoCoin_jar</output-path>
+    <root id="archive" name="TomikCoin.jar">
+      <element id="module-output" name="CryptoCoin" />
+    </root>
+  </artifact>
+</component>
