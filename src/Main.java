@@ -1,3 +1,5 @@
+import blockchain.Blockchain;
+
 import java.security.*;
 import java.security.spec.InvalidKeySpecException;
 
@@ -42,7 +44,8 @@ public class Main {
     public static void main(String[] args) {
        //String clientAddress = args[0];
 
-
+        Blockchain chain = new Blockchain();
+        chain.saveToFile();
 
 
     }
